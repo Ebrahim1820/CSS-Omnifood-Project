@@ -72,6 +72,7 @@ html {
 
   /* Percentage of user's browser font-size setting */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 * {
@@ -85,6 +86,10 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* We need this to hide mobile menu screen  */
+  /* Only works if there is nothing absolutely */
+  overflow-x: hidden;
 }
 /* ============================= */
 /* GENERAL REUSABLE COMPONENTS */
@@ -264,6 +269,7 @@ here will add bottom margin if it is not
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
 
 .list-icon {

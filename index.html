@@ -12,8 +12,11 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+
+    <!-- CSS PATH FILES  -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
 
     <!-- NEED IT FOR ICONS -->
     <script
@@ -28,10 +31,12 @@
     <title>Omnifood</title>
   </head>
   <body>
+    <!-- nav-open -->
     <header class="header">
       <a href="#">
         <img class="logo" alt="Omnifood" src="img/omnifood-logo.png" />
       </a>
+
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">How it works</a></li>
@@ -41,6 +46,11 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
 
     <!--  Main area is for none repeated content  -->
@@ -668,6 +678,7 @@
         </div>
       </section>
     </main>
+
     <!--  FOOTER  -->
     <!-- Footer is outside of main due to it will repeated many times -->
     <footer class="footer">
